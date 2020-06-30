@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: 'Abel', sans-serif;
+    src: url(fuente.ttf);
+    color: white;
+}
+.menu{
+    width: 100%;
+    transition: 2s;
+}
+.menu#uno , .submenu#uno{
+    background-color: blueviolet;
+    transition: 2s;
+}
+.menu#dos, .submenu#dos{
+    background-color: #51C232;
+}
+.menu#tres, .submenu#seis{
+    background-color: darkblue;
+}
+.menu#cuatro, .submenu#seis{
+    background-color: darkgoldenrod;
+}
+.menu#cinco, .submenu#seis{
+    background-color: darkred;
+}
+.menu#seis{
+    background-color: #676767  ;
+}
+.menu#siete{
+    background-color: #D8D849 ;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li {
+    flex-grow: 1;
+    font-size: 20px;
+}
+.menu li a, .submenu li a{  
+    display: block;
+    padding: 15px 20px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.menu li:hover, .submenu li:hover {
+    background-color: #0B0C0B ;
+    transition: 1s;
+}
+
+.titulo{
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+.submenu{
+    width: 170px;
+    height: auto;
+    transition: 1s;
+    margin: 40px;
+    position: absolute;
+
+}
+.submenu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+.inf{
+    background-color: #676767;
+    width: 1020px;
+    height: auto;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 40px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 26px;
+}
+.cita{
+    text-align: left;
+    font-size: 15px;
+    color: black;
+}
